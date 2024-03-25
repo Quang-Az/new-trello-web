@@ -1,13 +1,13 @@
 import Button from '@mui/material/Button'
 import Icon from '@mui/material/Icon'
-import './App.css'
+import Typography from '@mui/material/Typography'
 
 function App() {
 
   return (
     <>
+      <Typography variant="body2" color="text.secondary">Test Typography</Typography>
       <h1>Hello</h1>
-      <Icon>star</Icon>;
       <Button variant="contained">Hello world</Button>
     </>
   )
